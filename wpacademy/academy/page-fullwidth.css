@@ -1,0 +1,20 @@
+.site-main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+body,
+.site-main {
+  background-color: #f2f2f2;
+  font-size: 18px;
+  width: 100%;
+}
+
+.content-area {
+  width: 100%;
+}
+
+.site-main {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}

@@ -1,0 +1,127 @@
+# Copyright (C) 2026 Hsoub Academy
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Academy 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-academy\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-18T12:31:26+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: woo-academy\n"
+
+#. Plugin Name of the plugin
+#: woo-academy.php
+#: woo-academy.php:263
+msgid "Woo Academy"
+msgstr ""
+
+#. Description of the plugin
+#: woo-academy.php
+msgid "WooCommerce add-on plugin example"
+msgstr ""
+
+#. Author of the plugin
+#: woo-academy.php
+msgid "Hsoub Academy"
+msgstr ""
+
+#. Author URI of the plugin
+#: woo-academy.php
+msgid "https://academy.hsoub.com/"
+msgstr ""
+
+#: class-woo-academy-integration.php:12
+msgid "Woo Academy Integration"
+msgstr ""
+
+#: class-woo-academy-integration.php:13
+msgid "Woo Academy Integration to add plugin specific settings to WooCommerce."
+msgstr ""
+
+#: class-woo-academy-integration.php:35
+msgid "Currency Pairs"
+msgstr ""
+
+#: class-woo-academy-integration.php:37
+msgid ""
+"Enter Currencies and thier values that corresponds to the main currency exchange rate in the store and separate each pair with a new line following\r\n"
+"        this pattern >> Currency:Value(new line)\n"
+" Ex: EUR:1.13\n"
+""
+msgstr ""
+
+#: class-woo-academy-integration.php:44
+msgid "Auto Update Currency Pairs"
+msgstr ""
+
+#: class-woo-academy-integration.php:46
+msgid "Check to enable auto currency pairs updates from external API."
+msgstr ""
+
+#: class-woo-academy-integration.php:69
+msgid "Looks like you made a mistake with the Currency Pairs field. Make sure to follow the correct pattern!"
+msgstr ""
+
+#: class-woo-academy-integration.php:114
+msgid "Currency:"
+msgstr ""
+
+#: class-woo-academy-integration.php:123
+msgid "Set"
+msgstr ""
+
+#: woo-academy.php:127
+msgid "Woo Academy could not be activated. The minimum required PHP version is "
+msgstr ""
+
+#: woo-academy.php:175
+msgctxt "Woo Order status"
+msgid "Building"
+msgstr ""
+
+#: woo-academy.php:180
+#, php-format
+msgid "Building <span class=\"count\">(%s)</span>"
+msgid_plural "Building <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woo-academy.php:194
+msgid "Settings"
+msgstr ""
+
+#: woo-academy.php:205
+msgid "Building"
+msgstr ""
+
+#: woo-academy.php:245
+#, php-format
+msgid "%1$sWoo Academy%2$s requires %1$s\"WooCommerce\"%2$s plugin to be active. Please activate WooCommerce to continue."
+msgstr ""
+
+#: woo-academy.php:246
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: woo-academy.php:252
+#, php-format
+msgid "%1$sWoo Academy%2$s requires %1$s\"WooCommerce\"%2$s plugin to be installed and activated. Please install WooCommerce to continue."
+msgstr ""
+
+#: woo-academy.php:253
+msgid "Install WooCommerce"
+msgstr ""
+
+#: woo-academy.php:262
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: woo-academy.php:264
+msgid "WordPress"
+msgstr ""

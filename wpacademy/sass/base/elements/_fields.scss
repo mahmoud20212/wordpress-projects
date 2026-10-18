@@ -1,0 +1,40 @@
+@use "../../abstracts/variables/colors";
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: colors.$color__text-input;
+	border: 1px solid colors.$color__border-input;
+	border-radius: 0.5rem;
+	padding: 0.5em 0.7em;
+	transition: border-color 0.2s ease;
+
+	&:focus {
+		color: colors.$color__text-input-focus;
+		outline: none;
+		border-color: colors.$color__text-screen;
+	}
+}
+
+select {
+	border: 1px solid colors.$color__border-input;
+	border-radius: 0.5rem;
+	padding: 0.3em 0.5em;
+}
+
+textarea {
+	width: 100%;
+}

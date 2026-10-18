@@ -1,0 +1,1 @@
+php C:\wp-cli\wp-cli.phar i18n make-pot . languages/woo-academy.pot

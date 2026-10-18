@@ -1,0 +1,129 @@
+# Copyright (C) 2026 Mahmoud Ouda
+# This file is distributed under the same license as the Storefront Child theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Storefront Child 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/storefront-child\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: storefront-child\n"
+
+#: style.css
+msgid "Storefront Child"
+msgstr "Storefront Child"
+
+#: style.css
+msgid "Child Theme for Storefront"
+msgstr "قالب فرعي لـ Storefront"
+
+#: style.css
+msgid "Mahmoud Ouda"
+msgstr "محمود عودة"
+
+#: functions.php:41
+#, php-format
+msgid "Your current order total is %s — you must have an order with a minimum of %s to place your order "
+msgstr "إجمالي طلبك الحالي هو %s — يجب أن يكون الحد الأدنى لقيمة الطلب %s حتى تتمكن من إتمام طلبك"
+
+#: functions.php:50
+#, php-format
+msgid "Your current order total is %s — you must have an order with a minimum of %s to place your order"
+msgstr "إجمالي طلبك الحالي هو %s — يجب أن يكون الحد الأدنى لقيمة الطلب %s حتى تتمكن من إتمام طلبك"
+
+#: functions.php:67
+msgid "Northern Ireland"
+msgstr "أيرلندا الشمالية"
+
+#: functions.php:76
+msgid "NIRE"
+msgstr "NIRE"
+
+#: functions.php:88
+msgid "Event Starts at: "
+msgstr "يبدأ الحدث في: "
+
+#: functions.php:90
+msgid "Event Ends at: "
+msgstr "ينتهي الحدث في: "
+
+#: functions.php:124
+msgid "All Rights Reserved &copy; "
+msgstr "جميع الحقوق محفوظة &copy; "
+
+#: functions.php:168
+msgid "Sale!"
+msgstr "تخفيض!"
+
+#: inc/wcp-online-summit.php:24
+msgid "Reserve Your Spot"
+msgstr "احجز مكانك"
+
+#: inc/wcp-online-summit.php:48 inc/wcp-online-summit.php:123
+msgid "Online Summit"
+msgstr "القمة الإلكترونية"
+
+#: inc/wcp-online-summit.php:141
+msgid "Online Summit Name"
+msgstr "اسم القمة الإلكترونية"
+
+#: inc/wcp-online-summit.php:143
+msgid "Enter the online summit name or title."
+msgstr "أدخل اسم القمة الإلكترونية أو عنوانها."
+
+#: inc/wcp-online-summit.php:151
+msgid "Starting Time"
+msgstr "وقت البدء"
+
+#: inc/wcp-online-summit.php:153
+msgid "Enter the exact hour for the start."
+msgstr "أدخل ساعة البدء بدقة."
+
+#: inc/wcp-online-summit.php:161
+msgid "Ending Time"
+msgstr "وقت الانتهاء"
+
+#: inc/wcp-online-summit.php:163
+msgid "Enter the exact hour for the end."
+msgstr "أدخل ساعة الانتهاء بدقة."
+
+#: inc/wcp-online-summit.php:171
+msgid "Time Zone"
+msgstr "المنطقة الزمنية"
+
+#: inc/wcp-online-summit.php:173
+msgid "Enter the summit time zone."
+msgstr "أدخل المنطقة الزمنية للقمة."
+
+#: inc/wcp-online-summit.php:181
+msgid "Summit Date Range"
+msgstr "نطاق تاريخ القمة"
+
+#: inc/wcp-online-summit.php:182
+msgid "Enter in which dates the summit will start and finish"
+msgstr "أدخل تاريخي بدء القمة وانتهائها"
+
+#: inc/wcp-online-summit.php:183
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "من&hellip;"
+
+#: inc/wcp-online-summit.php:186
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "إلى&hellip;"
+
+#: woocommerce/archive-product.php:107
+msgid "Best Selling Products"
+msgstr "المنتجات الأكثر مبيعًا"
+
+#: woocommerce/content-single-product.php:41
+msgid "From "
+msgstr "من "
+
+#: woocommerce/content-single-product.php:42
+msgid " To "
+msgstr " إلى "
