@@ -1,28 +1,48 @@
 # wpAcademy
 
-قالب WordPress لموقع أكاديمية أو محتوى تعليمي، مبني على Underscores وموسع بملفات الأكاديمية داخل academy/ وdashboard.php وwpacademy_widget.php.
+## Project Overview
 
-## المكونات
+wpAcademy is a WordPress theme designed for educational websites, online academies, and learning-focused content. It extends Underscores with academy layouts, dashboard functionality, widgets, custom fonts, and dedicated styling.
 
-- academy/: تنسيقات وواجهات خاصة بالأكاديمية.
-- dashboard.php وwpacademy_widget.php: لوحة وWidget المشروع.
-- inc/ وtemplate-parts/: وظائف القالب وقوالب المحتوى.
-- sass/ وملفات CSS: مصدر Sass والملفات الناتجة ونسخة RTL.
-- js/ وfonts/ وlanguages/: JavaScript والخطوط والترجمة.
+## Technologies
 
-## المتطلبات والتثبيت
+- WordPress and PHP
+- JavaScript
+- CSS and Sass/SCSS
+- Composer and npm
+- WooCommerce integration support
+- Jetpack Infinite Scroll support
 
-- WordPress 4.5 أو أحدث.
-- PHP 5.6 أو أحدث.
-- WooCommerce اختياري، وJetpack اختياري لدعم Infinite Scroll.
+## Project Structure
 
-انسخ المجلد إلى wp-content/themes/wpacademy ثم فعّله من لوحة WordPress واضبط القوائم والودجات وصفحات الأكاديمية.
+- academy/: academy-specific layouts and styles.
+- dashboard.php: academy dashboard template.
+- wpacademy_widget.php: custom academy widget.
+- inc/ and template-parts/: theme functions and reusable templates.
+- sass/: source Sass files.
+- js/: navigation, Customizer, administration, and academy scripts.
+- fonts/: bundled Noto Kufi Arabic font files.
+- languages/: translation resources.
 
-## التطوير
+## Setup and Usage
+
+1. Copy the theme to wp-content/themes/wpacademy.
+2. Install dependencies with npm install and composer install.
+3. Activate wpAcademy from Appearance > Themes.
+4. Configure menus, widgets, pages, and academy dashboard content.
+
+## Features
+
+- Academy-oriented page layouts.
+- Custom dashboard and widget support.
+- Responsive styling with RTL support.
+- Bundled Arabic-friendly typography.
+- Translation-ready architecture.
+- Optional WooCommerce and Jetpack compatibility.
+
+## Development Commands
 
 ~~~bash
-npm install
-composer install
 npm run compile:css
 npm run compile:rtl
 npm run lint:js
@@ -31,8 +51,9 @@ composer lint:php
 composer lint:wpcs
 ~~~
 
-استخدم npm run watch لإعادة بناء Sass تلقائيًا، وcomposer make-pot لتوليد الترجمة.
+Use npm run watch for continuous Sass compilation and composer make-pot to generate translations.
 
-## الترخيص
+## License
 
-GPLv2 أو أحدث. راجع LICENSE.
+GPLv2 or later. See LICENSE.
+

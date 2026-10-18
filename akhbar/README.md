@@ -1,30 +1,47 @@
 # akhbar
 
-قالب WordPress مخصص لموقع أخبار، مبني على هيكل Underscores. يوفّر قوالب للمقالات والفيديو والرأي ونتائج البحث والأرشيف، مع دعم RTL والترجمة.
+## Project Overview
 
-## المكونات
+akhbar is a WordPress news theme based on the Underscores starter theme. It provides structured templates for articles, videos, and opinion content, with responsive layouts, RTL support, and translation readiness.
 
-- functions.php: وظائف القالب والـ hooks.
-- inc/: وظائف القالب والـ Customizer والرأس المخصص وTemplate Tags.
-- template-parts/: أجزاء المحتوى المشتركة.
-- single-video.php وarchive-video.php: محتوى الفيديو.
-- single-opinion.php وarchive-opinion.php: محتوى الرأي.
-- css/ وstyle.css: التنسيقات ونسخة RTL.
-- js/ وlanguages/: JavaScript وملفات الترجمة.
+## Technologies
 
-## المتطلبات والتثبيت
+- WordPress and PHP
+- JavaScript
+- CSS and Sass/SCSS
+- Composer and npm
+- WooCommerce integration support
+- Jetpack Infinite Scroll support
 
-- WordPress 4.5 أو أحدث.
-- PHP 5.6 أو أحدث.
-- WooCommerce اختياري، وJetpack اختياري لدعم Infinite Scroll.
+## Project Structure
 
-انسخ المجلد إلى wp-content/themes/akhbar ثم فعّله من لوحة WordPress واضبط القوائم والشعار والصور البارزة.
+- inc/: theme setup, Customizer integration, template tags, and helper functions.
+- template-parts/: reusable content templates.
+- single-video.php and archive-video.php: video templates.
+- single-opinion.php and archive-opinion.php: opinion templates.
+- css/, style.css, and style-rtl.css: theme styles.
+- js/: navigation and customization scripts.
+- languages/: translation resources.
 
-## التطوير
+## Setup and Usage
+
+1. Copy the theme to wp-content/themes/akhbar.
+2. Install dependencies with npm install and composer install.
+3. Activate akhbar from Appearance > Themes.
+4. Configure menus, logo, featured images, widgets, and content types.
+
+## Features
+
+- News and editorial content templates.
+- Dedicated video and opinion archives.
+- RTL stylesheet support.
+- Translation-ready architecture.
+- Optional WooCommerce and Jetpack compatibility.
+- WordPress Customizer integration.
+
+## Development Commands
 
 ~~~bash
-npm install
-composer install
 npm run compile:css
 npm run compile:rtl
 npm run lint:js
@@ -33,8 +50,9 @@ composer lint:php
 composer lint:wpcs
 ~~~
 
-استخدم npm run watch لمراقبة Sass، وcomposer make-pot لتوليد ملف الترجمة بعد توفر WP-CLI.
+Use npm run watch for live Sass compilation and composer make-pot to generate translation files with WP-CLI.
 
-## الترخيص
+## License
 
-GPLv2 أو أحدث. راجع LICENSE.
+GPLv2 or later. See LICENSE.
+

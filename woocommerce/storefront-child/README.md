@@ -1,32 +1,56 @@
 # Storefront Child
 
-قالب فرعي لـ Storefront يخصص تجربة متجر WooCommerce ويضيف نوع منتج Online Summit.
+## Project Overview
 
-## الوظائف الرئيسية
+Storefront Child is a WooCommerce child theme built on Storefront. It customizes shop layout, checkout behavior, product presentation, footer output, and product types without modifying the parent theme directly.
 
-- حد أدنى لقيمة الطلب قدره 25 قبل إتمام الشراء.
-- إضافة Northern Ireland إلى قائمة الدول.
-- تخصيص بطاقات المنتجات والتذييل وإزالة بعض عناصر Storefront.
-- نوع منتج افتراضي wcp_online_summit مع اسم الفعالية ووقت البداية والنهاية والمنطقة الزمنية.
-- دعم الترجمة من languages/.
+## Technologies
 
-## المتطلبات والتثبيت
+- WordPress and PHP
+- WooCommerce
+- Storefront parent theme
+- JavaScript/jQuery and CSS
+- WordPress hooks, filters, and translation functions
 
-- WordPress وWooCommerce وقالب Storefront الأب.
+## Setup and Usage
 
-انسخ المجلد إلى wp-content/themes/storefront-child، وثبّت Storefront، ثم فعّل القالب الفرعي. يظهر نوع Online Summit عند إنشاء منتج WooCommerce.
+1. Install and activate the Storefront parent theme.
+2. Copy this directory to wp-content/themes/storefront-child.
+3. Activate Storefront Child from Appearance > Themes.
+4. Configure WooCommerce and create products as usual.
+5. Select Online Summit as the product type for event products.
 
-## التخصيص
+## Features
 
-- غيّر الحد الأدنى للطلب في functions.php داخل المتغير minimum.
-- عدّل الألوان والتخطيط في style.css.
-- عدّل حقول الفعالية في inc/wcp-online-summit.php.
-- راجع مجلد woocommerce/ لتخصيص قوالب المنتج والأرشيف.
+- Minimum order amount validation set to 25.
+- Northern Ireland added to the WooCommerce country list.
+- Custom Online Summit product type.
+- Summit name, start time, end time, and time zone fields.
+- Custom product display and sale badge.
+- Store and product layout adjustments.
+- Storefront sidebar, breadcrumbs, title, and sale flash customization.
+- Custom footer credit output.
+- Translation support.
 
-## ملاحظات
+## Project Structure
 
-اختبر القالب بعد تحديث Storefront أو WooCommerce، خصوصًا صفحات الدفع والمنتج المخصص.
+- functions.php: theme setup and WooCommerce customizations.
+- inc/wcp-online-summit.php: Online Summit product type and admin fields.
+- woocommerce/: WooCommerce template overrides.
+- style.css: child theme metadata and styling.
+- languages/: translation files.
 
-## الترخيص
+## Customization
 
-GPLv2 أو أحدث.
+Change the minimum order value in functions.php, update styling in style.css, and modify Online Summit fields in inc/wcp-online-summit.php. Test all template overrides after Storefront or WooCommerce updates.
+
+## Requirements
+
+- WordPress
+- WooCommerce
+- Storefront parent theme
+
+## License
+
+GPLv2 or later unless otherwise specified by the parent theme or included project files.
+

@@ -1,32 +1,53 @@
 # Woo Academy
 
-إضافة WooCommerce تضيف محدد عملة للمتجر، وتحفظ العملة المختارة في Cookie، وتحوّل أسعار المنتجات باستخدام أزواج العملات.
+## Project Overview
 
-## المكونات
+Woo Academy is a WooCommerce plugin that adds front-end currency selection and converts product prices using configured exchange-rate pairs. The selected currency is stored in a browser cookie and applied to product prices and currency symbols.
 
-- woo-academy.php: نقطة التشغيل وhooks التفعيل وAJAX وتعديل الأسعار.
-- class-woo-academy-integration.php: إعدادات WooCommerce والتحقق من أزواج العملات وShortcode [currency_selector].
-- assets/js/ajax.js: إرسال العملة المختارة عبر AJAX.
+## Technologies
 
-## المتطلبات والتثبيت
+- WordPress Plugin API and PHP
+- WooCommerce hooks, filters, and integration settings
+- JavaScript and jQuery
+- WordPress AJAX
+- WordPress Internationalization API
 
-- WordPress 4.4 أو أحدث.
-- PHP 7.0 أو أحدث.
-- WooCommerce 3.5.0 أو أحدث.
+## Setup and Usage
 
-انسخ المجلد إلى wp-content/plugins/woo-academy ثم فعّله. من WooCommerce > الإعدادات > Integration أدخل كل زوج في سطر مستقل، مثل:
+1. Copy the plugin to wp-content/plugins/woo-academy.
+2. Activate it from Plugins in the WordPress dashboard.
+3. Open WooCommerce > Settings > Integration.
+4. Configure one currency pair per line:
 
 ~~~text
 EUR:1.13
 GBP:0.86
 ~~~
 
-أدرج [currency_selector] في المكان المطلوب. العملة الأساسية هي عملة المتجر، والأسعار تتحول عند اختيار عملة أخرى.
+5. Add the shortcode [currency_selector] to a page, widget, or supported template location.
 
-## ملاحظات
+The WooCommerce store currency is used as the base currency. Prices are converted when a customer selects another supported currency.
 
-راجع تكامل مزود أسعار الصرف قبل تفعيل التحديث التلقائي في الإنتاج، ولا تضع مفاتيح API داخل الشيفرة.
+## Features
 
-## الترخيص
+- Front-end currency selector.
+- Product price and currency symbol conversion.
+- AJAX-based currency selection with nonce validation.
+- Manual exchange-rate configuration.
+- Optional scheduled exchange-rate integration foundation.
+- Translation-ready strings.
 
-GPLv2، وفق رأس الملف woo-academy.php.
+## Requirements
+
+- WordPress 4.4 or later.
+- PHP 7.0 or later.
+- WooCommerce 3.5.0 or later.
+
+## Development
+
+woo-academy.php is the main entry point. WooCommerce settings and shortcode logic are implemented in class-woo-academy-integration.php. Front-end AJAX behavior is located in assets/js/ajax.js.
+
+## License
+
+GPLv2. Refer to the plugin header for details.
+

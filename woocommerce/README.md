@@ -1,8 +1,9 @@
-# مشاريع WooCommerce
+# WooCommerce Projects
 
-يحتوي هذا المجلد على مكوّنين مستقلين:
+This directory contains two independent WooCommerce solutions:
 
-- [woo-academy](woo-academy/README.md): إضافة لتبديل العملة وتعديل أسعار WooCommerce.
-- [storefront-child](storefront-child/README.md): قالب فرعي لـ Storefront مع تخصيصات المتجر ونوع منتج Online Summit.
+- [Woo Academy](woo-academy/README.md): currency selection and price conversion plugin.
+- [Storefront Child](storefront-child/README.md): Storefront child theme with store and product customizations.
 
-كلا المشروعين يتطلبان WordPress وWooCommerce. فعّل القالب الفرعي بعد تثبيت Storefront الأب.
+Both projects require WordPress and WooCommerce. Install and configure each project independently according to its README.
+
